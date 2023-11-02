@@ -13,7 +13,7 @@ $main_ou = ".\" + $OU + "_" +  $alluser.count
 New-Item -ItemType directory -Path $main_ou -Force | Out-Null
 Set-location -Path $main_ou
 
-# Create arries with users from different databases
+# Create array with users from different databases
 $alluser | ForEach-Object {
  if($_.database -like "Premium")
  {
