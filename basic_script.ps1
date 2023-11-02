@@ -9,3 +9,8 @@ Get-Help about_PSSessions
 cd ..
 Set-Location powershell
 Get-PSDrive
+
+
+
+
+get-aduser -Filter {mail -like "*"} | select Name, userprincipalname | ? {$_.name -notlike "*System*" -and $_.name -notlike "Healt*"} | ForEach-Object {write-host $_.userprincipalname}

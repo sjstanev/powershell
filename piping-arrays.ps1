@@ -3,3 +3,7 @@
 
 # Get-services status
 Get-Content -Path .\services.txt | Get-Service
+
+<# get service on specific computer using -property name and computername #>
+$serviceObject = [PScustomObject]@{Name = 'wuauserv'; ComputerName = 'DELLXPS'}
+$serviceObject | Get-Service

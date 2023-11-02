@@ -7,3 +7,9 @@ else
 {
     Write-Host "Sorry only for Stan" -ForegroundColor Red
 }
+
+
+# Create custem object with following property
+$myFirstCustomObject = [PSCustomObject]@{OSBuild = '11'; OSVersion = '4.3'}
+$myFirstCustomObject | gm
+
