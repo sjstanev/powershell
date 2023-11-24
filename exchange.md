@@ -39,7 +39,7 @@ CHECK CONN:
 ```
 Enter-PSSession 192.168.10.50 -Credential admin
 or
-winrs -r:192.168.10.50 -u:admin -p:T3tra@aec dir
+winrs -r:192.168.10.50 -u:admin -p:`<password>` dir
 ```
 -----------------------------------------------------------------------------------
 Troubleshooting:
