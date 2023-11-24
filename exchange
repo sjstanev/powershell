@@ -1,2 +1,4 @@
 If you're not running Exchange Powershell for Exchange cmdlets, you must first import the Exchange module.
-```Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn```
+```
+Add-PSSnapin Microsoft.Exchange.Management.PowerShell.SnapIn
+```
