@@ -32,7 +32,7 @@ To ensure that the database is back into a Clean Shutdown state, you have to per
 3. If the database is still in a Dirty Shutdown state, then you have to perform a hard recovery on your database. The command for hard recovery is:
 ```
 eseutil /p "E:\Exchange\MailboxDatabase\Mailbox Database 0510216722\Mailbox Database 0510216722.edb"
-
+```
 -------------------------------------------------------------------------------------------------------
 
 
